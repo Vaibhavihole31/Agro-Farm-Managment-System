@@ -1,0 +1,4 @@
+Primary color:#009933
+Secondary color:#ff9933
+Light color:#66ff33
+Baground color:#ffffff
