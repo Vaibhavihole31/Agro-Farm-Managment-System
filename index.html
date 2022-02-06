@@ -4,12 +4,98 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
-        <title> Agro Farm Managment System </title></head>
-    <body> 
-        <h1> Agro Farm Managment System </h1>
+        <script src="https://kit.fontawesome.com/e872ba44e8.js" crossorigin="anonymous"></script>
+
+        <title> Agro Farm Managment System </title>
+    </head>
+        <body> 
+        
+        <div class="container container-header">
+        <h1 Class="txt"> Agro Farm Managment System </h1>
+        <h2> This Dummy Title </h2>
+        <p> This is dummy para </p>
+
+        <div class="row">
+
+        <div class="col-md-8" >
+             <div> 
+                 <h2 class="login-screen"> Login Screen </h2>
+             </div>
+        </div>
+          <div class="col-md-4">
+
+          </div>
+          </div>
+       </div>
+
+       <div class="container-fluid container-products">
+         <div class="row" >
+
+             <div class="col-md-3 ">
+                 <div class="product-card shadow-lg ">
+                    <img src="./assets/image/apple.png" alt="apple" class="apple" />
+                    <h3 class="txt"> Apple </h3>
+                    <p> <b>Eating an apple every day is unlikely to harm your health.</b> Apples may also promote weight loss and improve gut and brain health. </p>
+
+                    <h4 class="txt">
+                        <i class="fas fa-minus-circle" onClick="decKg('apple')"></i>
+                         <span id="qnt-apple">1</span> KG  
+                         <i class="fas fa-plus-circle" onClick="incKg('apple')"></i></h4>
+                    <button class="btn"> Buy Now</button>
+                 </div>
+                 </div>
+
+                 <div class="col-md-3 ">
+                    <div class="product-card shadow-lg ">
+                       <img src="./assets/image/banana.png" alt="banana" class="banana" />
+                       <h3 class="txt"> Banana </h3>
+                       <p> <b>Eat banana and May improve blood sugar levels.</b> One to two bananas per day is considered a moderate intake for most healthy people. </p>
+                          <h4 class="txt">
+                        <i class="fas fa-minus-circle" onClick="decKg('banana')"></i>
+                         <span id="qnt-banana">1</span> KG  
+                         <i class="fas fa-plus-circle" onClick="incKg('banana')"></i></h4>
+                       <button class="btn"> Buy Now</button>
+                    </div>
+                    </div>
+
+                    <div class="col-md-3 ">
+                        <div class="product-card shadow-lg ">
+                           <img src="./assets/image/grapes.png" alt="grapes" class="grapes" />
+                           <h3 class="txt"> Grapes </h3>
+                           <p> <b>Eating an Grapes Helps your immune system. </b> Grapes are a good source of potassium, a mineral that helps balance fluids in your body. </p>
+       
+                           <h4 class="txt">
+                            <i class="fas fa-minus-circle" onClick="decKg('grapes')"></i>
+                             <span id="qnt-grapes">1</span> KG  
+                             <i class="fas fa-plus-circle" onClick="incKg('grapes')"></i></h4>
+
+                           <button class="btn"> Buy Now</button>
+                        </div>
+                        </div>
+
+                        <div class="col-md-3  ">
+                            <div class="product-card shadow-lg">
+                               <img src="./assets/image/orange.png" alt="orange" class="orange" />
+                               <h3 class="txt"> Orange </h3>
+                               <p> <b>Protects your cells from damage.</b> Helps your body make collagen, a protein that heals wounds and gives you smoother skin. </p>
+           
+                               <h4 class="txt">
+                                <i class="fas fa-minus-circle" onClick="decKg('orange')"></i>
+                                 <span id="qnt-orange">1</span> KG  
+                                 <i class="fas fa-plus-circle" onClick="incKg('orange')"></i></h4>
+
+                               <button class="btn"> Buy Now</button>
+                            </div>
+                            </div>
+
+                
+             </div>
+         </div>   
+
+       </div>
    
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        
+
       <script src="./js/script.js"></script>
     </body>
 </html>

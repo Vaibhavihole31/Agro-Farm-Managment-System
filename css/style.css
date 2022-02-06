@@ -1,0 +1,92 @@
+body{
+    background-color: #ff9933;
+}
+
+
+.txt{
+    text-align: center;
+}
+
+.container-header{
+    background-image: url('./../assets/image/farm.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+.login-screen{
+  background-color: white; 
+   border-radius: 10px;
+   height: 400px;
+   width: 300px;
+   margin: 10px;
+
+}
+
+.container-products{
+    padding: 20px;
+    margin-top: 100px;
+    background-color: #009933;
+    
+}
+.row{
+    display: flex;
+          justify-content:space-evenly;
+          flex-direction: row;
+}
+
+.product-card{
+    background-color:skyblue;
+    padding: 10px;  
+    border-radius: 30px;
+    width: 200px;
+    height: 350px;
+    margin-top: 20px;
+    padding:10px;
+    box-shadow:0px 0px 10px black;
+
+
+}
+
+
+.apple{
+    height:100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    
+    
+}
+
+.banana{
+    height:100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    
+}
+
+.grapes{
+    height:100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    
+}
+
+.orange{
+    height:100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    
+}
+.btn{
+    width:200px;
+    height:30px;
+    background-color: black;
+    color: white;
+    
+    
+}
