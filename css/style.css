@@ -36,7 +36,7 @@ body{
 
 .row{
     display: flex;
-          justify-content:space-evenly;
+          justify-content:space-ev;
           flex-direction: row;
         
 }
@@ -46,7 +46,7 @@ body{
     padding: 10px;  
     border-radius: 30px;
     width: 200px;
-    height: 350px;
+    height: 370px;
     margin-top: 20px;
     padding:10px;
     box-shadow:0px 0px 10px black;
